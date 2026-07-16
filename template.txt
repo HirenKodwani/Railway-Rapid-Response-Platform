@@ -1,0 +1,453 @@
+-730770
+-345440
+0
+0
+     INDIAN RAILWAYS
+    Rapid Response Platform (R3P) 
+INCIDENT INVESTIGATION REPORT
+4226906
+-1081232
+0
+0
+Incident ID
+Report Status
+Generated Date
+Verification ID
+{{incident_id}}
+{{report_status}}
+{{generated_date}}
+{{digital_verification_id}}
+INCIDENT 
+: 
+{{nomenclature}}
+CLASSIFICATION: {{classification}}  |  SEVERITY: {{severity}}  |  STATUS: {{status}}
+SECTION 1
+EXECUTIVE SUMMARY
+Incident ID
+{{incident_id}}
+Incident Type
+{{incident_type}}
+Sub-Category
+{{incident_subcategory}}
+Severity Level
+{{severity}}
+Location
+{{location}}
+Created At
+{{created_at}}
+Resolved At
+{{resolved_at}}
+Duration
+{{duration}}
+Summary:
+{{summary}}
+SECTION 2
+INCIDENT DETAILS
+Incident ID
+{{incident_id}}
+Nomenclature
+{{nomenclature}}
+Train Number
+{{train_number}}
+Train Name
+{{train_name}}
+Zone
+{{zone}}
+Division
+{{division}}
+Section
+{{section}}
+Location
+{{location}}
+Latitude
+{{latitude}}
+Longitude
+{{longitude}}
+Severity
+{{severity}}
+Incident Category
+{{incident_category}}
+Incident Sub-Category
+{{incident_subcategory}}
+Affected Component
+{{affected_component}}
+Mock Drill
+{{is_mock_drill}}
+Status
+{{status}}
+Created At
+{{created_at}}
+Resolved At
+{{resolved_at}}
+Duration
+{{duration}}
+SECTION 3
+TRAIN & CREW DETAILS
+Train Number
+{{train_number}}
+Train Name
+{{train_name}}
+Driver Name
+{{driver_name}}
+Driver Employee ID
+{{driver_employee_id}}
+Assistant Driver
+{{assistant_driver}}
+Guard
+{{guard}}
+Train Speed (km/h)
+{{train_speed}}
+Train Direction
+{{train_direction}}
+SECTION 4
+SUPERVISION DETAILS
+Lead Supervisor
+{{lead_supervisor_name}}
+Lead Supervisor Emp. ID
+{{lead_supervisor_employee_id}}
+Lead Supervisor Contact
+{{lead_supervisor_phone}}
+Supervisor
+{{supervisor_name}}
+Supervisor Emp. ID
+{{supervisor_employee_id}}
+Supervisor Contact
+{{supervisor_phone}}
+Control Officer
+{{control_officer_name}}
+Control Officer Emp. ID
+{{control_officer_employee_id}}
+Control Officer Contact
+{{control_officer_phone}}
+Reporting Officer
+{{reporting_officer_name}}
+Reporting Officer Emp. ID
+{{reporting_officer_employee_id}}
+Reporting Officer Contact
+{{reporting_officer_phone}}
+SECTION 5
+RESOURCE DEPLOYMENT
+Total Operators Deployed: {{total_operators_deployed}}
+#
+Operator Name
+Employee ID
+Designation
+Duty
+Accepted
+Arrived
+Completed
+1
+{{operator_1_name}}
+{{operator_1_emp_id}}
+{{operator_1_designation}}
+{{operator_1_duty}}
+{{operator_1_accepted_time}}
+{{operator_1_arrival_time}}
+{{operator_1_completion_time}}
+2
+{{operator_2_name}}
+{{operator_2_emp_id}}
+{{operator_2_designation}}
+{{operator_2_duty}}
+{{operator_2_accepted_time}}
+{{operator_2_arrival_time}}
+{{operator_2_completion_time}}
+3
+{{operator_3_name}}
+{{operator_3_emp_id}}
+{{operator_3_designation}}
+{{operator_3_duty}}
+{{operator_3_accepted_time}}
+{{operator_3_arrival_time}}
+{{operator_3_completion_time}}
+4
+{{operator_4_name}}
+{{operator_4_emp_id}}
+{{operator_4_designation}}
+{{operator_4_duty}}
+{{operator_4_accepted
+_time}}
+{{operator_4_arrival_ti
+me}}
+{{operator_4_completio
+n_time}}
+5
+{{operator_5_name}}
+{{operator_5_emp_id}}
+{{operator_5_designation}}
+{{operator_5_duty}}
+{{operator_5_accepted_time}}
+{{operator_5_arrival_time}}
+{{operator_5_completion_time}}
+...
+{{operator_n_name}}
+{{operator_n_emp_id}}
+{{operator_n_designation}}
+{{operator_n_duty}}
+{{operator_n_accepted_time}}
+{{operator_n_arrival_time}}
+{{operator_n_completion_time}}
+Note: This table is dynamically repeatable. Each accepted operator generates one row.
+SECTION 6
+CASUALTY & IMPACT REPORT
+People Injured
+{{people_injured}}
+People Deceased
+{{people_deceased}}
+Passengers Affected
+{{passengers_affected}}
+Staff Injured
+{{staff_injured}}
+Staff Deceased
+{{staff_deceased}}
+Track Block Duration
+{{track_block_duration}}
+Train Delays
+{{train_delays}}
+Property Damage
+{{property_damage}}
+Estimated Loss (₹)
+{{estimated_loss}}
+SECTION 7
+INCIDENT TIMELINE
+Chronological sequence of events:
+#
+Event
+Timestamp
+Elapsed Time
+Remarks
+1
+Incident Created
+{{timeline_incident_created}}
+{{timeline_incident_created_elapsed}}
+{{timeline_incident_created_remarks}}
+2
+Supervisor Assigned
+{{timeline_supervisor_assigned}}
+{{timeline_supervisor_assigned_elapsed}}
+{{timeline_supervisor_assigned_remarks}}
+3
+Operators Notified
+{{timeline_operators_notified}}
+{{timeline_operators_notified_elapsed}}
+{{timeline_operators_notified_remarks}}
+4
+Operators Accepted
+{{timeline_operators_accepted}}
+{{timeline_operators_accepted_elapsed}}
+{{timeline_operators_accepted_remarks}}
+5
+ART Dispatched
+{{timeline_art_dispatched}}
+{{timeline_art_dispatched_elapsed}}
+{{timeline_art_dispatched_remarks}}
+6
+ART Arrived
+{{timeline_art_arrived}}
+{{timeline_art_arrived_elapsed}}
+{{timeline_art_arrived_remarks}}
+7
+Incident Controlled
+{{timeline_incident_controlled}}
+{{timeline_incident_controlled_elapsed}}
+{{timeline_incident_controlled_remarks}}
+8
+Incident Resolved
+{{timeline_incident_resolved}}
+{{timeline_incident_resolved_elapsed}}
+{{timeline_incident_resolved_remarks}}
+SECTION 8
+LOCATION & ROUTE ANALYSIS
+Incident Location
+{{incident_location_address}}
+Incident GPS
+{{latitude}}, {{longitude}}
+ART Train Location
+{{art_train_location}}
+ART Train GPS
+{{art_train_lat}}, {{art_train_lng}}
+Distance Travelled
+{{distance_travelled}}
+Travel Time
+{{travel_time}}
+Route Map:
+{{route_map}}
+[Route map image will be inserted here]
+[Shows: Incident Location • ART Train Location • Operator Locations]
+SECTION 9
+EVIDENCE SUMMARY
+Evidence Type
+Count
+Integrity Status
+Photographs
+{{images_count}}
+{{images_integrity}}
+Videos
+{{videos_count}}
+{{videos_integrity}}
+Audio Recordings
+{{audio_count}}
+{{audio_integrity}}
+Text Statements
+{{statements_count}}
+{{statements_integrity}}
+Overall Evidence Integrity: {{evidence_integrity_status}}
+SECTION 10
+TEXT STATEMENTS
+Repeatable section — one block per statement.
+Operator
+{{statement_1_operator}}
+Timestamp
+{{statement_1_timestamp}}
+GPS
+{{statement_1_gps}}
+Statement
+{{statement_1_text}}
+— repeat for each statement —
+Operator
+{{statement_n_operator}}
+Timestamp
+{{statement_n_timestamp}}
+GPS
+{{statement_n_gps}}
+Statement
+{{statement_n_text}}
+SECTION 11
+PHOTOGRAPHIC EVIDENCE
+2 images per page. Repeatable gallery section.
+{{photo_1_image}}
+[Photo 1]
+Timestamp:
+{{photo_1_timestamp}}
+GPS:
+{{photo_1_gps}}
+Device:
+{{photo_1_device}}
+Captured By:
+{{photo_1_captured_by}}
+{{photo_2_image}}
+[Photo 2]
+Timestamp:
+{{photo_2_timestamp}}
+GPS:
+{{photo_2_gps}}
+Device:
+{{photo_2_device}}
+Captured By:
+{{photo_2_captured_by}}
+— repeat photo block for each image (2 per page) —
+SECTION 12
+VIDEO EVIDENCE
+Each video entry includes a thumbnail, metadata, QR code for quick access, and a direct URL fallback.
+{{video_1_thumbnail}}
+Duration: 
+{{video_1_duration}}
+Timestamp: 
+{{video_1_timestamp}}
+GPS: 
+{{video_1_gps}}
+Captured By: 
+{{video_1_captured_by}}
+File Name: 
+{{video_1_filename}}
+File Size: 
+{{video_1_filesize}}
+SCAN TO VIEW
+{{video_1_qr_code}}
+If QR not available, use link:
+{{video_1_direct_url}}
+--- repeat video block for each video ---
+{{video_n_thumbnail}}
+Duration: 
+{{video_n_duration}}
+Timestamp: 
+{{video_n_timestamp}}
+GPS: 
+{{video_n_gps}}
+Captured By: 
+{{video_n_captured_by}}
+File Name: 
+{{video_n_filename}}
+File Size: 
+{{video_n_filesize}}
+SCAN TO VIEW
+{{video_n_qr_code}}
+If QR not available, use link:
+{{video_n_direct_url}}
+SECTION 13
+AUDIO EVIDENCE
+Each audio entry includes metadata, transcript, QR code for playback, and a direct URL fallback.
+AUDIO RECORDING #1
+Duration: 
+{{audio_1_duration}}
+Timestamp: 
+{{audio_1_timestamp}}
+Captured By: 
+{{audio_1_captured_by}}
+File Name: 
+{{audio_1_filename}}
+File Size: 
+{{audio_1_filesize}}
+Transcript:
+{{audio_1_transcript}}
+SCAN TO LISTEN
+{{audio_1_qr_code}}
+If QR not available, use link:
+{{audio_1_direct_url}}
+--- repeat audio block for each audio recording ---
+AUDIO RECORDING #n
+Duration: 
+{{audio_n_duration}}
+Timestamp: 
+{{audio_n_timestamp}}
+Captured By: 
+{{audio_n_captured_by}}
+File Name: 
+{{audio_n_filename}}
+File Size: 
+{{audio_n_filesize}}
+Transcript:
+{{audio_n_transcript}}
+SCAN TO LISTEN
+{{audio_n_qr_code}}
+If QR not available, use link:
+{{audio_n_direct_url}}
+SECTION 14
+ROOT CAUSE ANALYSIS
+Root Cause
+{{root_cause}}
+Contributing Factors
+{{contributing_factors}}
+Risk Assessment
+{{risk_assessment}}
+SECTION 15
+CORRECTIVE ACTIONS
+Immediate Actions
+{{immediate_actions}}
+Temporary Actions
+{{temporary_actions}}
+Permanent Actions
+{{permanent_actions}}
+SECTION 16
+APPROVALS & SIGN-OFF
+Prepared By
+Supervisor Approval
+Lead Supervisor Approval
+Name:
+{{prepared_by_name}}
+Name:
+{{supervisor_approval_name}}
+Name:
+{{lead_supervisor_approval_name}}
+Digital Signature:
+{{prepared_by_signature}}
+Digital Signature:
+{{supervisor_approval_signature}}
+Digital Signature:
+{{lead_supervisor_approval_signature}}
+Report Generated: {{
+report_generated_timestamp
+}}
+Digital Verification ID: {{
+digital_verification_id
+}}

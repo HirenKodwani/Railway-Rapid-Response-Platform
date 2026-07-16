@@ -1,0 +1,124 @@
+Analyze the entire Flutter project and integrate the production Railway Routing Service end-to-end.
+
+Production API:
+
+https://anveshr312-railway-routing-service.hf.space
+
+Swagger:
+
+https://anveshr312-railway-routing-service.hf.space/docs
+
+Repository:
+
+https://github.com/anveshr312-bit/railway-routing-service
+
+Objectives:
+
+1. Find all map-related modules.
+
+2. Replace any existing:
+
+   * straight-line routing
+   * polyline interpolation
+   * dummy route generation
+   * localhost routing endpoints
+
+3. Create a production RailwayRoutingService using Dio.
+
+Requirements:
+
+* Base URL:
+  https://anveshr312-railway-routing-service.hf.space
+
+* Connect Timeout:
+  120 seconds
+
+* Receive Timeout:
+  120 seconds
+
+Endpoints:
+
+POST /rail-route
+
+Request:
+
+{
+"start_lat": double,
+"start_lng": double,
+"end_lat": double,
+"end_lng": double
+}
+
+POST /nearest-track
+
+Request:
+
+{
+"lat": double,
+"lng": double
+}
+
+4. When an incident is created:
+
+ART Train Location
+→
+POST /rail-route
+→
+Incident Location
+
+5. Parse returned GeoJSON.
+
+6. Render returned LineString on flutter_map.
+
+7. Display:
+
+* route distance
+* ETA
+* snapped ART location
+* snapped incident location
+
+8. Remove any fallback logic that draws direct straight lines between coordinates.
+
+9. If routing fails:
+
+* show user-friendly message
+* do not draw fallback route
+
+10. For supervisor view:
+
+Operator Location
+→
+POST /nearest-track
+→
+Display snapped railway position
+
+11. Verify:
+
+* GeoJSON renders correctly
+* No straight-line fallback exists
+* Existing map features continue working
+* Flutter analyze passes
+
+12. Generate:
+
+integration_report.md
+
+Include:
+
+* modified files
+* architecture changes
+* endpoint usage
+* verification results
+
+13. Commit all changes.
+
+14. Push changes.
+
+Return ONLY:
+
+* changed files
+* commit hash
+* integration_report.md
+
+Do not ask questions.
+Implement automatically.
